@@ -1,15 +1,15 @@
 'use strict';
 
-var isBrowser = require('is-browser')
-  , core = isBrowser ? require('json-schema-core') : require('json-schema-core-component')
-  , uritemplate = require('uritemplate')
+var isBrowser = require('forbeslindesay-is-browser')
+  , core = isBrowser ? require('ericgj-json-schema-core') : require('json-schema-core-component')
+  , uritemplate = require('ericgj-uritemplate')
   , Node = core.Node
   , Schema = core.Schema
-  , inherit = isBrowser ? require('inherit') : require('inherit-component')
-  , each = isBrowser ? require('each') : require('each-component')
-  , type = isBrowser ? require('type') : require('component-type')
-  , select = isBrowser ? require('select') : require('select-component')
-  , find   = require('find')
+  , inherit = isBrowser ? require('component-inherit') : require('inherit-component')
+  , each = isBrowser ? require('component-each') : require('each-component')
+  , type = isBrowser ? require('component-type') : require('component-type')
+  , select = isBrowser ? require('component-select') : require('select-component')
+  , find   = require('component-find')
   , has  = Object.hasOwnProperty
 
 // Schema plugin, use like `Schema.use(require('json-schema-hyper'))`

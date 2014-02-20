@@ -1,31 +1,18 @@
 {
-  "name": "json-schema-hyper-component",
-  "version": "0.0.19",
+  "name": "ericgj-json-schema-hyper",
   "description": "JSON Schema hypermedia (URI templating)",
+  "version": "0.0.19",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha --ui bdd test/tests.js"
-  },
   "dependencies": {
-    "json-schema-core": "https://github.com/ericgj/json-schema-core/tarball/master",
-    "uritemplate": "https://github.com/ericgj/uritemplate/tarball/master",
-    "each-component": "https://github.com/component/each/tarball/master",  
-    "component-type": "https://github.com/component/type/tarball/master",
-    "inherit-component": "https://github.com/component/inherit/tarball/master",
-    "find": "https://github.com/component/find/tarball/master",
-    "select-component": "https://github.com/component/select/tarball/master",
-    "is-browser": "https://github.com/forbeslindesay/is-browser/tarball/master"
+    "ericgj-json-schema-core": "git://github.com/npmcomponent/ericgj-json-schema-core.git",
+    "ericgj-uritemplate": "git://github.com/npmcomponent/ericgj-uritemplate.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "component-select": "git://github.com/npmcomponent/component-select.git",
+    "component-find": "git://github.com/npmcomponent/component-find.git",
+    "forbeslindesay-is-browser": "git://github.com/npmcomponent/forbeslindesay-is-browser.git"
   },
-  "devDependencies": {
-    "mocha": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ericgj/json-schema-hyper.git"
-  },
-  "author": "Eric Gjertsen",
   "license": "MIT"
 }
